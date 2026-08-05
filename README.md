@@ -3,6 +3,10 @@
 `fan_target` keeps the PS5 fan controller at a selected target temperature while
 leaving the console's automatic fan control enabled.
 
+The default PS5 fan profile uses a target temperature of **91 °C**. While this
+payload is running, it replaces that value with the temperature selected by the
+ELF build.
+
 Five ready-to-build versions are included:
 
 - 85 °C
@@ -79,3 +83,7 @@ Choose only one temperature version. If several versions are listed, each one
 will replace the previous process and the last one started will remain active.
 The optional `!100` line adds a short delay before launch and can be adjusted
 to match the rest of your autoload sequence.
+
+## Credits
+
+- [owendswang/ps5-fan-control](https://github.com/owendswang/ps5-fan-control)
