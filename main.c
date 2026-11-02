@@ -15,7 +15,7 @@
 #include <time.h>
 #include <unistd.h>
 
-#define PROCESS_NAME "fan_target.elf"
+#define PROCESS_NAME "fan_target_77.elf"
 #define FAN_DEVICE "/dev/icc_fan"
 #define FAN_OPEN_FLAGS 0x10002
 #define FAN_GET_AUTOSERVO 0xC01C8F08UL
